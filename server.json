@@ -1,20 +1,28 @@
 {
   "foods": [
     {
-      "image": "",
-      "name": "",
-      "price": "",
-      "description": "",
+      "id": 1,
+      "name": "Ao molho",
+      "description": "Macarrão ao molho branco, fughi e cheiro verde das montanhas",
+      "price": "19.90",
       "available": true,
-      "id": 4
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food1.png"
     },
     {
-      "image": "https://img.cybercook.com.br/receitas/527/massa-de-pizza-7-623x350.jpeg",
-      "name": "Moda",
-      "price": "15",
-      "description": "10",
+      "id": 2,
+      "name": "Veggiee",
+      "description": "Macarrão com pimentão, ervilha e ervas finas colhidas no himalaia.",
+      "price": "21.90",
       "available": true,
-      "id": 5
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food2.png"
+    },
+    {
+      "id": 3,
+      "name": "A la Camarón",
+      "description": "Macarrão com vegetais de primeira linha e camarão dos 7 mares.",
+      "price": "25.90",
+      "available": false,
+      "image": "https://storage.googleapis.com/golden-wind/bootcamp-gostack/desafio-food/food3.png"
     }
   ]
 }
