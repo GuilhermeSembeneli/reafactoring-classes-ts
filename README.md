@@ -6,7 +6,7 @@ GoRestaurant
 <p align="center" id="sobre">O projeto é uma aplicação em que conseguimos gerenciar o cardapio de nosso resturante com mais facilidade, podendo bloquear e adicionar novos produtos.  </p>
 
 
-<h1> Tabela de Conteúdo </h1>
+<h1  align="center">  Tabela de Conteúdo </h1>
 
 <!--ts-->
    * [Sobre](#Sobre)
@@ -16,7 +16,7 @@ GoRestaurant
    * [Features](#features)
 <!--te-->
 
-<h2 id="features">Features </h1>
+<h2 id="features"  align="center">Features </h1>
 
 - [x] Adicionar novos itens ao cardapio
 - [x] Bloquear itens
@@ -26,13 +26,13 @@ GoRestaurant
   <img alt="GoRestaurant"  src="https://i.imgur.com/meuMy4i.png" />
 </h1>
 
-<h2 id="desafio">Desafio</h2> 
+<h2 id="desafio"  align="center">Desafio</h2> 
 <p> <strong>O desafio da rocketseat consiste em dois processos </strong>, sendo eles:
     <li> Javascript para Typescript </li>
     <li> Class Component para Function Component </li>
 <p>
 
-<h2 id="tecnologias"> Tecnologias</h1>
+<h2 id="tecnologias"  align="center"> Tecnologias</h1>
 
 ### 🛠 Tecnologias & Tools 
 - [ReactJS](https://pt-br.reactjs.org/)
@@ -43,7 +43,7 @@ GoRestaurant
 - [React Modal](https://github.com/reactjs/react-modal)
 
 
-<h2 id="instalacao"> Instalação </h1>
+<h2 id="instalacao"  align="center"> Instalação </h1>
 
 ### Pré-requisitos
 - Antes de começar a instalação certifique-se que possui o [Nodejs](https://nodejs.org/en/download) & [Yarn](https://classic.yarnpkg.com/en/docs/install/#debian-stable)
