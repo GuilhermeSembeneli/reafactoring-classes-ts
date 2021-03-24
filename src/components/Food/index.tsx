@@ -13,12 +13,12 @@ export interface FoodProps {
   image: string;
 }
 
-interface Food {
+interface Foods {
   handleDelete: (id: number) => void;
   handleEditFood: (food: FoodProps) => void;
   food: FoodProps;
 }
-export default function Food(props: Food) {
+export default function Food(props: Foods) {
   const { available } = props.food;
   const [isAvailable, setIsAvailable] = React.useState(available);
 
