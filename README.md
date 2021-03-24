@@ -61,6 +61,7 @@ GoRestaurant
 
   # Inicie o servidor
   yarn start 
+  yarn json
 
   # A aplicação irá iniciar em: http://localhost:3000/
 ```
