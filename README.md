@@ -27,7 +27,7 @@ GoRestaurant
 </h1>
 
 <h2 id="desafio">O Desafio</h2> 
-<p> O desafio da rocketseat consiste em dois processos, sendo eles:
+<p> <strong>O desafio da rocketseat consiste em dois processos </strong>, sendo eles:
     <li> Javascript para Typescript </li>
     <li> Class Component para Function Component </li>
 <p>
