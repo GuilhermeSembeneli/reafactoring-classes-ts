@@ -66,5 +66,5 @@ GoRestaurant
 ```
 
 <h4 align="center"> 
-	🚧  dt money 💵 Completo... 🚧
+	🚧  GoRestaurant 🍕 Completo... 🚧
 </h4>
