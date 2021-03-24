@@ -54,7 +54,7 @@ GoRestaurant
   git clone https://github.com/Sembenevi/dtmoney-ignite.git
 
   # Acesse o diretorio 
-  cd dtmoney
+  cd [nome da pasta]
 
   #Instale as dependencias
   yarn install 
