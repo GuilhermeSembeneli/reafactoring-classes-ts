@@ -1,23 +1,37 @@
-import React from 'react';
-import { FiEdit3, FiTrash } from 'react-icons/fi';
+import React from "react";
+import { FiEdit3, FiTrash } from "react-icons/fi";
 
-import { Container } from './styles';
-import api from '../../services/api';
+import { Container } from "./styles";
+import api from "../../services/api";
 
-export default function Food(props){
-  const {available} = props.food;
-  const [isAvailable, setIsAvailable] = React.useState(available)
+export interface FoodProps {
+  id: number;
+  price: number;
+  available: boolean;
+  name: string;
+  description: string;
+  image: string;
+}
 
-  async function toggleAvailable(){
+interface Food {
+  handleDelete: (id: number) => void;
+  handleEditFood: (food: FoodProps) => void;
+  food: FoodProps;
+}
+export default function Food(props: Food) {
+  const { available } = props.food;
+  const [isAvailable, setIsAvailable] = React.useState(available);
+
+  async function toggleAvailable() {
     await api.put(`/foods/${props.food.id}`, {
       ...props.food,
       available: !isAvailable,
     });
 
-    setIsAvailable(!isAvailable)
+    setIsAvailable(!isAvailable);
   }
 
-  function setEditingFood(){
+  function setEditingFood() {
     props.handleEditFood(props.food);
   }
 
@@ -55,9 +69,12 @@ export default function Food(props){
         </div>
 
         <div className="availability-container">
-          <p>{isAvailable ? 'Disponível' : 'Indisponível'}</p>
+          <p>{isAvailable ? "Disponível" : "Indisponível"}</p>
 
-          <label htmlFor={`available-switch-${props.food.id}`} className="switch">
+          <label
+            htmlFor={`available-switch-${props.food.id}`}
+            className="switch"
+          >
             <input
               id={`available-switch-${props.food.id}`}
               type="checkbox"
@@ -71,10 +88,7 @@ export default function Food(props){
       </section>
     </Container>
   );
-
-
 }
-
 
 /*
 class Food extends Component {
