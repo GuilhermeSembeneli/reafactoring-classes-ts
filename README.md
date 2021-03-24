@@ -26,13 +26,13 @@ GoRestaurant
   <img alt="GoRestaurant"  src="https://i.imgur.com/meuMy4i.png" />
 </h1>
 
-<h2 id="desafio">O Desafio</h2> 
+<h2 id="desafio">Desafio</h2> 
 <p> <strong>O desafio da rocketseat consiste em dois processos </strong>, sendo eles:
     <li> Javascript para Typescript </li>
     <li> Class Component para Function Component </li>
 <p>
 
-<h2 id="tecnologias"> Tecnologias </h1>
+<h2 id="tecnologias"> Tecnologias</h1>
 
 ### 🛠 Tecnologias & Tools 
 - [ReactJS](https://pt-br.reactjs.org/)
